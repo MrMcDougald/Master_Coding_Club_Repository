@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://cqdwn5llxks8o"]
+
+[ext_resource type="PackedScene" uid="uid://btxho0pwmkgik" path="res://scenes/player/player.tscn" id="1_dphjl"]
+[ext_resource type="PackedScene" uid="uid://coqlnmiteooy7" path="res://scenes/floor/floor.tscn" id="2_sl2e5"]
+
+[node name="World" type="Node2D" unique_id=427730044]
+
+[node name="Player" parent="." unique_id=283677666 instance=ExtResource("1_dphjl")]
+position = Vector2(510, 200)
+
+[node name="Floor" parent="." unique_id=1664559223 instance=ExtResource("2_sl2e5")]
+position = Vector2(522, 434)
